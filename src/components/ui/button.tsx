@@ -18,6 +18,11 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Web3 variants
+        "web3-primary": "bg-gradient-primary text-primary-foreground hover:shadow-glow-primary transition-all duration-300 border border-neon-green/20",
+        "web3-accent": "bg-gradient-accent text-accent-foreground hover:shadow-glow-accent transition-all duration-300 border border-neon-purple/20",
+        "web3-outline": "border-2 border-neon-green bg-transparent text-neon-green hover:bg-neon-green hover:text-deep-space transition-all duration-300",
+        "web3-ghost": "text-neon-green hover:bg-neon-green/10 hover:shadow-glow-primary transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
